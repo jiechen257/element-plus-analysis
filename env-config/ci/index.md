@@ -1,3 +1,0 @@
-- [husky](./.husky.md)
-- [github-actions](./.github.md)
-- [circle](./.circle.md)
