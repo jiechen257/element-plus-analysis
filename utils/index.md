@@ -1,1 +1,0 @@
-- [buildProps](./buildProps.md)
