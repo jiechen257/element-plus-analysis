@@ -1,9 +1,10 @@
 right-top-height = 45px
 .nav-right
-  width 420px
+  width 220px
   height 100%
-  background white
   border-right 1px solid #e5e8ec
+  border-left 1px solid #e5e8ec
+  background-image url("../../img/background.png") !important
   overflow hidden
   float left
   position relative
@@ -12,6 +13,8 @@ right-top-height = 45px
   -ms-user-select none
   -o-user-select none
   user-select none
+  &::before
+    background-image url("../../img/background.png") !important
   .title-list
     margin-left 0
     transition margin-left .5s
@@ -277,9 +280,9 @@ right-top-height = 45px
         &.hover:before
           animation wobble 1s linear
         .post-title
-          width: -webkit-calc(100% - 155px)
-          width: -moz-calc(100% - 155px)
-          width: calc(100% - 155px)
+          width: -webkit-calc(100% - 5px)
+          width: -moz-calc(100% - 5px)
+          width: calc(100% - 5px)
           float left
           clear both
           margin 5px 0
