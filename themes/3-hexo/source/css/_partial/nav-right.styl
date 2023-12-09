@@ -1,6 +1,6 @@
 right-top-height = 45px
 .nav-right
-  width 220px !important
+  width 320px !important
   height 100%
   border-right 1px solid #e5e8ec
   border-left 1px solid #e5e8ec
@@ -13,6 +13,7 @@ right-top-height = 45px
   -ms-user-select none
   -o-user-select none
   user-select none
+  font-family: Josefin Sans
   &::before
     background-image url("../../img/background.png") !important
   .title-list
@@ -280,9 +281,10 @@ right-top-height = 45px
         &.hover:before
           animation wobble 1s linear
         .post-title
-          width: -webkit-calc(100% - 5px)
-          width: -moz-calc(100% - 5px)
-          width: calc(100% - 5px)
+          width: -webkit-calc(100% - 35px)
+          width: -moz-calc(100% - 35px)
+          width: calc(100% - 35px)
+          white-space nowrap
           float left
           clear both
           margin 5px 0
